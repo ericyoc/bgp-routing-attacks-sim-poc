@@ -1,4 +1,4 @@
-# BGP Routing Simulator with Sub-Prefix Hijacking and BGP Prepending Attacks
+# BGP Routing with Sub-Prefix Hijacking and BGP Prepending Attacks Simulation
 
 This Python program simulates the Border Gateway Protocol (BGP) routing process and demonstrates two common BGP attacks: sub-prefix hijacking and BGP prepending. The program illustrates how these attacks can manipulate the routing paths and potentially intercept or manipulate traffic.
 
