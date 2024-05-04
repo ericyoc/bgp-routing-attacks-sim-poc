@@ -16,11 +16,18 @@ The program consists of the following main components:
 
 The program demonstrates the normal BGP routing process and then simulates the two attacks separately, showing how they affect the routing tables and paths.
 
+## Pre-Attack
+![](https://github.com/ericyoc/bgp-routing-attacks-sim-poc/blob/main/pre_attack_bgp.jpg)
+
 ## Sub-Prefix Hijacking Attack
 In a sub-prefix hijacking attack, the attacker (AS4 in the example) advertises a more specific prefix of the target ASN (AS1). This causes other routers to prefer the more specific route advertised by the attacker, effectively hijacking the traffic destined for the target ASN.
 
+![](https://github.com/ericyoc/bgp-routing-attacks-sim-poc/blob/main/post_sub-prefix_hijack.jpg)
+
 ## BGP Prepending Attack
 In a BGP prepending attack, the prepender (AS2 in the example) artificially increases the length of the AS path by prepending its own ASN multiple times. This makes the route appear less attractive to other routers, discouraging them from using the prepender as a transit point.
+
+![](https://github.com/ericyoc/bgp-routing-attacks-sim-poc/blob/main/post_prepending_attack.jpg)
 
 ## BGP History and Security
 BGP was first introduced in the early 1990s and has since undergone several revisions and improvements. The current version of BGP is BGP-4, which is defined in RFC 4271.
