@@ -2,8 +2,10 @@
 
 This Python program simulates the Border Gateway Protocol (BGP) routing process and demonstrates two common BGP attacks: sub-prefix hijacking and BGP prepending. The program illustrates how these attacks can manipulate the routing paths and potentially intercept or manipulate traffic.
 
-## Motivating Article
+## Motivating Articles
 Kowalski, M., & Mazurczyk, W. (2023). Toward the mutual routing security in wide area networks: A scoping review of current threats and countermeasures. Computer Networks, 109778. https://doi.org/10.1016/j.comnet.2023.109778.
+
+Bermejo Higuera J, Abad Aramburu C, Bermejo Higuera J-R, Sicilia Urban MA, Sicilia Montalvo JA. Systematic Approach to Malware Analysis (SAMA). Applied Sciences. 2020; 10(4):1360. https://doi.org/10.3390/app10041360
 
 ## Border Gateway Protocol (BGP)
 BGP is a standardized exterior gateway protocol designed to exchange routing and reachability information among autonomous systems (ASes) on the Internet. An autonomous system (AS) is a collection of connected Internet Protocol (IP) routing prefixes under the control of one or more network operators on behalf of a single administrative entity or domain.
