@@ -47,4 +47,14 @@ Additionally, BGP routers can be configured to use MD5 authentication between ne
 ## Conclusion
 This BGP routing simulator program demonstrates the normal operation of BGP and highlights the potential impact of sub-prefix hijacking and BGP prepending attacks on the routing process. By understanding these attacks and implementing appropriate security measures, network operators can help protect the integrity and stability of the Internet's routing infrastructure.
 
-Disclaimer This repository is intended for educational and research purposes.
+## Disclaimer 
+This repository is intended for educational and research purposes.
+
+## License
+Copyright 2024 Eric Yocam
+
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
